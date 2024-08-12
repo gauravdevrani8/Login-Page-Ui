@@ -27,9 +27,9 @@ const LoginForm = () => {
         ))}
       </div>
 
-      <div className="relative z-10   bg-[#f6f0f082] rounded-3xl shadow-2xl flex flex-col md:flex-row max-w-4xl w-full">
+      <div className="relative z-10 h-auto md:mx-11  bg-[#f6f0f082] rounded-3xl shadow-2xl flex flex-col md:flex-row max-w-4xl w-full">
         <div className="w-full md:border-8 border-indigo-300 bg- md:bg-white md:rounded-3xl md:w-1/2 flex items-center justify-center">
-          <Player autoplay loop src={loginAnimation} style={{ height: '100%', width: '100%' }} />
+          <Player autoplay loop src={loginAnimation} className='w-40 md:w-auto' />
         </div>
         <div className="w-full md:w-1/2 p-8 flex rounded-tr-3xl rounded-br-3xl flex-col items-center justify-center bg-[#f6f0f004]">
           <h1 className="text-4xl font-ibm-plex-sans font-bold mb-6 text-transparent bg-clip-text gradient-text">
